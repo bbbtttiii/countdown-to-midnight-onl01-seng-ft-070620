@@ -1,5 +1,5 @@
 def countdown(x)
-  counter = 10
+  counter = x
   while x > 0
     puts "#{x} SECOND(S)!"
     counter -= 1
